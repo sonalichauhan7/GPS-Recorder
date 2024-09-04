@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GPSRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GPSRecorderTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-GPSRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GPSRecorder.a */; };
+		0E5D54D398E14EC295D4365A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514F10090A3C486BA1BFB91C /* Poppins-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F04967C58A84A69923D0A3F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02ACD610644E48A2AB676490 /* Poppins-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-GPSRecorder-GPSRecorderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GPSRecorder-GPSRecorderTests.a */; };
 		79377B1477FDCDAE6430FC1D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A04C2969CE18C751D72CBD63 /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B6B48E1C4A3B4DFE9CE7A78F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87B987015FE44C68BA6D58B6 /* Poppins-Medium.ttf */; };
+		D63A3C28DA6C42A4AADFB19C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9AFE6908D14D6E9D9E7981 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,7 @@
 		00E356EE1AD99517003FC87E /* GPSRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GPSRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSRecorderTests.m; sourceTree = "<group>"; };
+		02ACD610644E48A2AB676490 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GPSRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GPSRecorder/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = GPSRecorder/AppDelegate.mm; sourceTree = "<group>"; };
@@ -40,11 +45,14 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GPSRecorder/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GPSRecorder-GPSRecorderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSRecorder-GPSRecorderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-GPSRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSRecorder.debug.xcconfig"; path = "Target Support Files/Pods-GPSRecorder/Pods-GPSRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		514F10090A3C486BA1BFB91C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GPSRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSRecorder.release.xcconfig"; path = "Target Support Files/Pods-GPSRecorder/Pods-GPSRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-GPSRecorder-GPSRecorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSRecorder-GPSRecorderTests.debug.xcconfig"; path = "Target Support Files/Pods-GPSRecorder-GPSRecorderTests/Pods-GPSRecorder-GPSRecorderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GPSRecorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPSRecorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GPSRecorder/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87B987015FE44C68BA6D58B6 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GPSRecorder-GPSRecorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSRecorder-GPSRecorderTests.release.xcconfig"; path = "Target Support Files/Pods-GPSRecorder-GPSRecorderTests/Pods-GPSRecorder-GPSRecorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A9AFE6908D14D6E9D9E7981 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		A04C2969CE18C751D72CBD63 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GPSRecorder/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -111,6 +119,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		64294095D6AD45D8A8DF1690 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02ACD610644E48A2AB676490 /* Poppins-Bold.ttf */,
+				87B987015FE44C68BA6D58B6 /* Poppins-Medium.ttf */,
+				9A9AFE6908D14D6E9D9E7981 /* Poppins-Regular.ttf */,
+				514F10090A3C486BA1BFB91C /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +147,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				64294095D6AD45D8A8DF1690 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +270,10 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				79377B1477FDCDAE6430FC1D /* PrivacyInfo.xcprivacy in Resources */,
+				1F04967C58A84A69923D0A3F /* Poppins-Bold.ttf in Resources */,
+				B6B48E1C4A3B4DFE9CE7A78F /* Poppins-Medium.ttf in Resources */,
+				D63A3C28DA6C42A4AADFB19C /* Poppins-Regular.ttf in Resources */,
+				0E5D54D398E14EC295D4365A /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
