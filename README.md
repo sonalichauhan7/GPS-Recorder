@@ -1,5 +1,5 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-# CoordinateApp
+# GPS Recorder
 
 GPS Recorder is a React Native application that allows users to add GPS coordinates, store them locally, and view the corresponding addresses.
 ## Features
